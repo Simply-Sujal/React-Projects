@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import '../Components/Navbar.css'
-import Nike from './nike.png'
-import Bag from './bag.png'
-import Heart from './heart.png'
+import Nike from '../Images/nike.png'
+import Bag from '../Images/bag.png'
+import Heart from '../Images/heart.png'
 
 function Navbar() {
     const [isMobile, setIsMobile] = useState(false);
     return (
         <>
             <nav className="navbar">
-                <h3 className="logo">Shopify <img src={Nike} alt="shoe" className='logo-2' /></h3>
+                <h3 className="logo"><Link to='/' className='shopify'>Shopify</Link>  <img src={Nike} alt="shoe" className='logo-2' /></h3>
                 <ul className={isMobile ? "nav-links-mobile" : "nav-links"}
                     onClick={() => setIsMobile(false)}
                 >
@@ -38,7 +38,6 @@ function Navbar() {
                 <input type='text' placeholder='search' className='search-bar' />
                 <img src={Heart} alt="" className='heart' />
                 <img src={Bag} alt="" className='bag' />
-
             </nav >
         </>
     )

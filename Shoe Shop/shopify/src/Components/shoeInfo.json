@@ -1,0 +1,32 @@
+[
+    {
+        "id" : "1",
+        "shoename" : "Air Jordan 1 High",
+        "abtshoe" : "Mens Stylish Shoes" ,
+        "shoeprice" : "$200",
+        "rating" : "4.5",
+        "shoeimage" : "./Assets/Jordan1.png",
+        "cardSection" : "card1",
+        "individualShoe":"jordan1"
+    } ,
+    {
+        "id" : "2",
+        "shoename" : "University Blue",
+        "abtshoe" : "Mens Stylish Shoes" ,
+        "shoeprice" : "$300",
+        "rating" : "4.9",
+        "shoeimage" : "./Assets/Shoe2.png",
+        "cardSection" : "card2",
+        "individualShoe":"jordan2"
+    } ,
+    {
+        "id" : "3",
+        "shoename" : "Air Jordan",
+        "abtshoe" : "Mens Stylish Shoes" ,
+        "shoeprice" : "$100",
+        "rating" : "4.1",
+        "shoeimage" : "./Assets/Jordan2.png",
+        "cardSection" : "card3",
+        "individualShoe":"jordan3"
+    } 
+]

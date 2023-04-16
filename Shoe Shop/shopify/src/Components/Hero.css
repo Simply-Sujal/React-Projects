@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&family=Raleway:ital,wght@0,100;0,200;0,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    position: relative;
+    /* height: 100vh; */
+    overflow: hidden;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.hero-info{
+    text-align: center;
+    /* align-items: center; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    width: 700px;
+    line-height: 53px;
+    margin: auto;
+}
+
+.title-shoe{
+    font-size: 3.9rem;
+}
+
+.nike-title{
+    /* color: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%); */
+  font-size: 3rem;
+  background: -webkit-linear-gradient(#00cdac, #8ddad5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.explore-btn{
+    padding:10px 34px;
+    cursor: pointer;
+    color: #000;
+    background-color: #00cdac;
+    border: none;
+    opacity: 0.7;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 8px;
+}
+.explore-btn:hover{
+    opacity: 0.9;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.hero-img{
+    align-items: start;
+    transform: rotate(335deg);
+    padding-right: 160px;
+    width: 700px;
+    height: 90vh;
+    padding-bottom: 100px;
+    transition: .9s;
+}
+
+.hero-img:hover{
+  transform: rotate(0deg);
+}
+
+.fa {
+    padding: 7px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px 4px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  @media screen and (max-width:950px){
+    .hero-section{
+      /* padding-top: px; */
+      margin-top: 90px;
+    }
+    .hero-info{
+      width: 500px;
+      line-height: 35px;
+    }
+
+    .title-shoe{
+      font-size: 2.5rem;
+    }
+
+    .nike-title{
+      font-size: 2.2rem;
+    }
+
+    .explore-btn{
+      padding:10px 16px;
+      cursor: pointer;
+      color: #000;
+      background-color: #00cdac;
+      border: none;
+      opacity: 0.7;
+      border-radius: 4px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      margin-top: 8px;
+  }
+
+  .fa {
+    padding: 5px 4px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 4px;
+  }
+
+}
+
+@media screen and (max-width:1400px){
+  .hero-section{
+    padding-top: 20px;
+  }
+  .hero-img{
+    align-items: center;
+    transform: rotate(325deg);
+    margin: auto;
+    height: auto;
+  }
+}
+
+
+  

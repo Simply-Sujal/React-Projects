@@ -14,8 +14,11 @@
     background-color: #FFFFFF;
     color: #fff;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    position: fixed;
-    width: 100%;
+}
+
+.shopify{
+    color: #000;
+    text-decoration: none;
 }
 
 .logo{
@@ -51,6 +54,17 @@
     margin: 10px 20px;
     cursor: pointer;
     
+}
+
+.list-item{
+    color: #000;
+    transition: 0.3s;
+}
+
+.list-item:hover{
+    background: -webkit-linear-gradient(#00cdac, #8ddad5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
 }
 
 .search-bar{
@@ -118,11 +132,13 @@
         display: none;
     }
 
+    /* hamburger menu  */
     .nav-links-mobile{
         position: absolute;
         display: block;
         list-style: none;
         background-color: #ECF2FF;
+        -webkit-font-smoothing: antialiased;
         left: 0;
         top: 74px;
         transition: all 0.5s ease-out;
@@ -130,7 +146,6 @@
         font-family: 'Roboto', sans-serif; 
         font-weight: 400;
         letter-spacing: 1.5px;
-        
     }
 
     .Home , .About , .Skills , .Contact , .SignUp{

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../App.css'
+import { FcApproval } from "react-icons/fc";
 
 const UseEffectAPI = () => {
 
@@ -26,7 +27,7 @@ const UseEffectAPI = () => {
                                     <img src={curElem.avatar_url} alt="#" />
                                 </div>
                                 <div className='card-info'>
-                                    <h3>{curElem.login}</h3>
+                                    <h3>{curElem.login} <FcApproval /></h3>
                                     <p className='github-name'>{curElem.title}</p>
                                     <div className='extra-info'>
                                         <div className='number-info'>
